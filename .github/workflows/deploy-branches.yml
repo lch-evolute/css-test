@@ -3,7 +3,8 @@ name: Deploy Branch to Subfolder
 on:
   push:
     branches:
-      - '**' # Fixed: Added the 'branches' keyword
+      - main
+      - staging
 
 jobs:
   deploy:
